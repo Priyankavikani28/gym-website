@@ -1,0 +1,2770 @@
+@media screen and (min-width:1440px) and (max-width:2880px){
+
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .navbar {
+        /* position: fixed; */
+        background-color: #666;
+        height: 55px;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .navbar a:hover {
+        color: #0a64a2;
+        background-color: white;
+        text-decoration: underline;
+    }
+    
+    #carouselExampleCaptions {
+        height: 900px;
+        width: 100%;
+    }
+    
+    #carouselExampleCaptions img {
+        height: 900px;
+        width: 100%;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        top: 300px;
+    }
+    .btn1{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1em;
+    }
+
+    /* Media Change */
+
+    #one{
+        background-image: url(download.png);
+        background-size: 100% 100%;
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #one p{
+        font-size: 3em;
+        color: white;
+        font-weight: bold;
+    }
+
+    #btn2{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    #btn2:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    #two{
+        width: 100vw;
+    }
+
+    #two h3{
+        text-align: center;
+    }
+
+    #two h2{
+        text-align: center;
+    }
+
+    #three{
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    #class1{
+        margin-top: 10px;
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class2{
+        margin-top: 10px;
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class3{
+        margin-top: 10px;
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #money{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    #enroll {
+        background-color: black;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 100px;
+        color: white;
+    }
+    
+    #class1:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class1:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class2:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class2:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class3:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class3:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #four{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #four h1{
+        text-align: center;
+    }
+
+    #sp1{
+        color: #0a64a2;
+    }
+
+    .fa-regular{
+        font-size: 2.3em;
+        color: #0a64a2;
+    }
+
+    #done{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #bone{
+        width: 50%;
+    }
+
+    #btwo{
+        width: 50%;
+    }
+
+    #col1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #five h1{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #wave{
+        font-size: 3em;
+        color: #0a64a2;
+        margin-left: 920px;
+    }
+
+    #five p{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #five ul{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        list-style: none;
+        font-size: 1.3em;
+    }
+
+    #five li:hover{
+        color: #0a64a2;
+        cursor: pointer;
+    }
+
+    #r1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 300px;
+        outline: 2px solid white;
+        text-align: center;
+    }
+
+    #r2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 300px;
+        outline: 2px solid white;
+        text-align: center;
+    }
+
+    #carouselExampleDark{
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .carousel-item h5{
+        color: white;
+        margin-top: 50px;
+    }
+
+    .carousel-item p{
+        color: white;
+    }
+
+    #btn1{
+        height: 50px;
+        width: 250px;
+        font-size: 1.2em;
+        color: white;
+        background-color: #0a64a2;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #btn1:hover{
+        color: #0a64a2;
+        background-color: white;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: #0b0800;
+        height: 100%;
+    }
+
+    #register{
+        position: absolute;
+        top: 1000px;
+        left: 400px;
+        width: 1000px;
+        background-color: rgba(10, 100, 162,0.8);
+        color: white;
+        padding-left: 30px ;
+        display: none;
+    }
+
+    #search1{
+        display: none;
+        position: absolute;
+        left: 1250px;
+        border-radius: 25px;
+        top: 13px;
+        border: none;
+    }
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .navbar {
+        /* position: fixed; */
+        background-color: #666;
+        height: 55px;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .navbar a:hover {
+        color: #0a64a2;
+        background-color: white;
+        text-decoration: underline;
+    }
+    
+    #carouselExampleCaptions {
+        height: 900px;
+        width: 100%;
+    }
+    
+    #carouselExampleCaptions img {
+        height: 900px;
+        width: 100%;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 300px;
+    }
+    .btn1{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+
+    /* Media Change */
+
+    #one{
+        background-image: url(download.png);
+        background-size: 100% 100%;
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+    }
+
+    #one p{
+        font-size: 3em;
+        color: white;
+        font-weight: bold;
+    }
+
+    #btn2{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    #btn2:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    #two{
+        width: 100%;
+    }
+
+    #two h2{
+        text-align: center;
+    }
+
+    #two h1{
+        text-align: center;
+    }
+
+    #three{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 800px;
+    }
+
+    #class1{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #money{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    #enroll {
+        background-color: black;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 100px;
+        color: white;
+    }
+    
+    #class1:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class1:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #four{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    #four h1{
+        text-align: center;
+    }
+
+    #sp1{
+        color: #0a64a2;
+    }
+
+    .fa-regular{
+        font-size: 2.3em;
+        color: #0a64a2;
+    }
+
+    #done{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #bone{
+        width: 50%;
+    }
+
+    #btwo{
+        width: 50%;
+    }
+
+    #col1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #five{
+        background-image: url("download\ \(1\).png");
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    #text1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #five h1{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #wave{
+        font-size: 3em;
+        color: #0a64a2;
+    }
+
+    #five p{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #five ul{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        list-style: none;
+        font-size: 1.2em;
+    }
+
+    #five li:hover{
+        color: #0a64a2;
+        cursor: pointer;
+    }
+
+    #r1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 200px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #r2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 300px;
+        outline: 5px solid white;
+        text-align: center;
+    }
+
+    #carouselExampleDark{
+        width: 50%;
+        margin-top: 50px;
+        overflow-y: hidden;
+    }
+
+    .carousel-item{
+        overflow-y: hidden;
+    }
+
+    .carousel-item h5{
+        color: white;
+        margin-top: -200px;
+    }
+
+    .carousel-item p{
+        color: white;
+    }
+
+    #btn1{
+        height: 50px;
+        width: 250px;
+        font-size: 1em;
+        color: white;
+        background-color: #0a64a2;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #btn1:hover{
+        color: #0a64a2;
+        background-color: white;
+        font-size: 1em;
+        font-weight: bolder;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: #0b0800;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    #register{
+        position: absolute;
+        top: 4200px;
+        left: 150px;
+        width: 700px;
+        background-color: rgba(10, 100, 162,0.8);
+        color: white;
+        padding-left: 30px ;
+        display: none;
+        z-index: 10 ;
+    }
+
+    #search1{
+        display: none;
+        position: absolute;
+        left: 1250px;
+        border-radius: 25px;
+        top: 13px;
+        border: none;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .navbar {
+        /* position: fixed; */
+        background-color: #666;
+        height: 55px;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .navbar a:hover {
+        color: #0a64a2;
+        background-color: white;
+        text-decoration: underline;
+    }
+    
+    #carouselExampleCaptions {
+        height: 900px;
+        width: 100%;
+    }
+    
+    #carouselExampleCaptions img {
+        height: 900px;
+        width: 100%;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        top: 300px;
+    }
+    .btn1{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+
+    /* Media Change */
+
+    #one{
+        background-image: url(download.png);
+        background-size: 100% 100%;
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+    }
+
+    #one p{
+        font-size: 3em;
+        color: white;
+        font-weight: bold;
+    }
+
+    #btn2{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    #btn2:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    #two{
+        width: 100%;
+    }
+
+    #two h2{
+        text-align: center;
+    }
+
+    #two h1{
+        text-align: center;
+    }
+
+    #three{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 800px;
+    }
+
+    #class1{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #money{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    #enroll {
+        background-color: black;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 100px;
+        color: white;
+    }
+    
+    #class1:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class1:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #four{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #four h1{
+        text-align: center;
+    }
+
+    #sp1{
+        color: #0a64a2;
+    }
+
+    .fa-regular{
+        font-size: 2.3em;
+        color: #0a64a2;
+    }
+
+    #done{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #bone{
+        width: 50%;
+    }
+
+    #btwo{
+        width: 50%;
+    }
+
+    #col1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #five{
+        background-image: url(/download\ \(1\).png);
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    #text1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #five h1{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #wave{
+        font-size: 3em;
+        color: #0a64a2;
+    }
+
+    #five p{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #five ul{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        list-style: none;
+        font-size: 1.2em;
+    }
+
+    #five li:hover{
+        color: #0a64a2;
+        cursor: pointer;
+    }
+
+    #r1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 200px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #r2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 300px;
+        outline: 5px solid white;
+        text-align: center;
+    }
+
+    #carouselExampleDark{
+        width: 50%;
+        margin-top: 50px;
+        overflow-y: hidden;
+    }
+
+    .carousel-item{
+        overflow-y: hidden;
+    }
+
+    .carousel-item h5{
+        color: white;
+        margin-top: 0px;
+    }
+
+    .carousel-item p{
+        color: white;
+    }
+
+    #btn1{
+        height: 50px;
+        width: 250px;
+        font-size: 1.2em;
+        color: white;
+        background-color: #0a64a2;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #btn1:hover{
+        color: #0a64a2;
+        background-color: white;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: #0b0800;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    #register{
+        position: absolute;
+        top: 1000px;
+        left: 150px;
+        width: 500px;
+        background-color: rgba(10, 100, 162,0.8);
+        color: white;
+        padding-left: 30px ;
+        display: none;
+    }
+
+    #search1{
+        display: none;
+        position: absolute;
+        left: 1250px;
+        border-radius: 25px;
+        top: 13px;
+        border: none;
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .navbar {
+        /* position: fixed; */
+        background-color: #666;
+        height: 55px;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .navbar a:hover {
+        color: #0a64a2;
+        background-color: white;
+        text-decoration: underline;
+    }
+    
+    #carouselExampleCaptions {
+        height: 900px;
+        width: 100%;
+    }
+    
+    #carouselExampleCaptions img {
+        height: 900px;
+        width: 100%;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        top: 300px;
+    }
+    .btn1{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+
+    /* Media Change */
+
+    #one{
+        background-image: url(download.png);
+        background-size: 100% 100%;
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+    }
+
+    #one p{
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+    }
+
+    #btn2{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    #btn2:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    #two{
+        width: 100%;
+    }
+
+    #two h2{
+        text-align: center;
+    }
+
+    #two h1{
+        text-align: center;
+    }
+
+    #three{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 2300px;
+        flex-wrap: wrap;
+    }
+
+    #class1{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class2{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class3{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #money{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    #enroll {
+        background-color: black;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 100px;
+        color: white;
+    }
+    
+    #class1:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class1:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class2:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class2:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class3:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class3:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #four{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #four h1{
+        text-align: center;
+    }
+
+    #sp1{
+        color: #0a64a2;
+    }
+
+    .fa-regular{
+        font-size: 2.3em;
+        color: #0a64a2;
+    }
+
+    #done{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #bone{
+        width: 50%;
+    }
+
+    #btwo{
+        width: 50%;
+    }
+
+    #col1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #five{
+        background-image: url(/download\ \(1\).png);
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    #text1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #five h1{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #wave{
+        font-size: 3em;
+        color: #0a64a2;
+    }
+
+    #five p{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #five ul{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        font-weight: bold;
+        list-style: none;
+        font-size: 0.6em;
+    }
+
+    #five li:hover{
+        color: #0a64a2;
+        cursor: pointer;
+    }
+
+    #r1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 200px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #r2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 300px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #carouselExampleDark{
+        width: 50%;
+        margin-top: 50px;
+        overflow-y: hidden;
+    }
+
+    .carousel-item{
+        overflow-y: hidden;
+    }
+
+    .carousel-item h5{
+        color: white;
+        margin-top: 0px;
+    }
+
+    .carousel-item p{
+        color: white;
+    }
+
+    #btn1{
+        height: 50px;
+        width: 250px;
+        font-size: 1.2em;
+        color: white;
+        background-color: #0a64a2;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #btn1:hover{
+        color: #0a64a2;
+        background-color: white;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: #0b0800;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    #register{
+        position: absolute;
+        top: 1000px;
+        left: 80px;
+        width: 300px;
+        background-color: rgba(10, 100, 162,0.8);
+        color: white;
+        padding-left: 30px ;
+        display: none;
+    }
+
+    #search1{
+        display: none;
+        position: absolute;
+        left: 1250px;
+        border-radius: 25px;
+        top: 13px;
+        border: none;
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:425px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .navbar {
+        /* position: fixed; */
+        background-color: #666;
+        height: 55px;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .navbar a:hover {
+        color: #0a64a2;
+        background-color: white;
+        text-decoration: underline;
+    }
+    
+    #carouselExampleCaptions {
+        height: 900px;
+        width: 100%;
+    }
+    
+    #carouselExampleCaptions img {
+        height: 900px;
+        width: 100%;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        top: 300px;
+    }
+    .btn1{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+
+    /* Media Change */
+
+    #one{
+        background-image: url(download.png);
+        background-size: 100% 100%;
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+    }
+
+    #one p{
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+    }
+
+    #btn2{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    #btn2:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    #two{
+        width: 100%;
+    }
+
+    #two h2{
+        text-align: center;
+    }
+
+    #two h1{
+        text-align: center;
+    }
+
+    #three{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 2300px;
+        flex-wrap: wrap;
+    }
+
+    #class1{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class2{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class3{
+        outline: 2px solid black;
+        height: 700px;
+        width: 350px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #money{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    #enroll {
+        background-color: black;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 100px;
+        color: white;
+    }
+    
+    #class1:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class1:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class2:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class2:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class3:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class3:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #four{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #four h1{
+        text-align: center;
+    }
+
+    #sp1{
+        color: #0a64a2;
+    }
+
+    .fa-regular{
+        font-size: 2.3em;
+        color: #0a64a2;
+    }
+
+    #done{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #bone{
+        width: 50%;
+    }
+
+    #btwo{
+        width: 50%;
+    }
+
+    #col1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #five{
+        background-image: url(/download\ \(1\).png);
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    #text1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #five h1{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #wave{
+        font-size: 3em;
+        color: #0a64a2;
+    }
+
+    #five p{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #five ul{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        font-weight: bold;
+        list-style: none;
+        font-size: 0.6em;
+    }
+
+    #five li:hover{
+        color: #0a64a2;
+        cursor: pointer;
+    }
+
+    #r1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 200px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #r2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 300px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #carouselExampleDark{
+        width: 50%;
+        margin-top: 50px;
+        overflow-y: hidden;
+    }
+
+    .carousel-item{
+        overflow-y: hidden;
+    }
+
+    .carousel-item h5{
+        color: white;
+        margin-top: 0px;
+    }
+
+    .carousel-item p{
+        color: white;
+    }
+
+    #btn1{
+        height: 50px;
+        width: 250px;
+        font-size: 1.2em;
+        color: white;
+        background-color: #0a64a2;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #btn1:hover{
+        color: #0a64a2;
+        background-color: white;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: #0b0800;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    #register{
+        position: absolute;
+        top: 1000px;
+        left: 80px;
+        width: 300px;
+        background-color: rgba(10, 100, 162,0.8);
+        color: white;
+        padding-left: 30px ;
+        display: none;
+    }
+
+    #search1{
+        display: none;
+        position: absolute;
+        left: 1250px;
+        border-radius: 25px;
+        top: 13px;
+        border: none;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:375px){
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .navbar {
+        /* position: fixed; */
+        background-color: #666;
+        height: 55px;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .navbar a {
+        color: white;
+    }
+    
+    .navbar a:hover {
+        color: #0a64a2;
+        background-color: white;
+        text-decoration: underline;
+    }
+    
+    #carouselExampleCaptions {
+        height: 900px;
+        width: 100%;
+    }
+    
+    #carouselExampleCaptions img {
+        height: 900px;
+        width: 100%;
+    }
+    
+    .carousel-caption {
+        position: absolute;
+        top: 300px;
+    }
+    .btn1{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+    .btn1:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.2em;
+    }
+
+    /* Media Change */
+
+    #one{
+        background-image: url(download.png);
+        background-size: 100% 100%;
+        margin-top: 20px;
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+    }
+
+    #one p{
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+    }
+
+    #btn2{
+        background-color: #0a64a2;
+        height: 50px;
+        width: 200px;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+    #btn2:hover{
+        background-color: white;
+        color: #0a64a2;
+        font-weight: bolder;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    #two{
+        width: 100%;
+    }
+
+    #two h2{
+        text-align: center;
+    }
+
+    #two h1{
+        text-align: center;
+    }
+
+    #three{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    #class1{
+        outline: 2px solid black;
+        height: 700px;
+        width: 250px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class2{
+        outline: 2px solid black;
+        height: 700px;
+        width: 250px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #class3{
+        outline: 2px solid black;
+        height: 700px;
+        width: 250px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    #money{
+        font-size: 3em;
+        font-weight: bold;
+    }
+    
+    #enroll {
+        background-color: black;
+        border: none;
+        border-radius: 15px;
+        height: 40px;
+        width: 100px;
+        color: white;
+    }
+    
+    #class1:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class1:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class2:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class2:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #class3:hover {
+        background-color: #0a64a2;
+        color: white;
+        cursor: pointer;
+    }
+    
+    #class3:hover #enroll {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+
+    #four{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #four h1{
+        text-align: center;
+    }
+
+    #sp1{
+        color: #0a64a2;
+    }
+
+    .fa-regular{
+        font-size: 2.3em;
+        color: #0a64a2;
+    }
+
+    #done{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #bone{
+        width: 50%;
+    }
+
+    #btwo{
+        width: 50%;
+    }
+
+    #col1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 5em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    #dumble1{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 3em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #col3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #dumble1{
+        width: 100px;
+        height: 100px;
+        border-radius: 5px;
+        background-color: #0a64a2;
+    }
+
+    .fa-dumbbell{
+        font-size: 3em;
+        color: white;
+        rotate: -45deg;
+        margin-top: 25px;
+        margin-left: 20px;
+    }
+
+    #details{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #details h1{
+        font-size: 30px;
+    }
+
+    #details p{
+        font-size: 15px;
+    }
+
+    #five{
+        background-image: url(/download\ \(1\).png);
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        margin-top: 50px;
+    }
+
+    #text1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #five h1{
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    #wave{
+        font-size: 3em;
+        color: #0a64a2;
+    }
+
+    #five p{
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #five ul{
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        font-weight: bold;
+        list-style: none;
+        font-size: 0.6em;
+    }
+
+    #five li:hover{
+        color: #0a64a2;
+        cursor: pointer;
+    }
+
+    #r1{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 200px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #r2{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #r1d1{
+        height: 50px;
+        width: 300px;
+        border: 1px solid rgba(255,255,255,0.5);
+        text-align: center;
+    }
+
+    #carouselExampleDark{
+        width: 50%;
+        margin-top: 50px;
+        overflow-y: hidden;
+    }
+
+    .carousel-item{
+        overflow-y: hidden;
+    }
+
+    .carousel-item h5{
+        color: white;
+        margin-top: 0px;
+    }
+
+    .carousel-item p{
+        color: white;
+    }
+
+    #btn1{
+        height: 50px;
+        width: 250px;
+        font-size: 1.2em;
+        color: white;
+        background-color: #0a64a2;
+        border-radius: 25px;
+        border: none;
+        font-weight: bold;
+    }
+
+    #btn1:hover{
+        color: #0a64a2;
+        background-color: white;
+        font-size: 1.3em;
+        font-weight: bolder;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: #0b0800;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    #register{
+        position: absolute;
+        top: 1000px;
+        left: 80px;
+        width: 300px;
+        background-color: rgba(10, 100, 162,0.8);
+        color: white;
+        padding-left: 30px ;
+        display: none;
+    }
+
+    #search1{
+        display: none;
+        position: absolute;
+        left: 1250px;
+        border-radius: 25px;
+        top: 13px;
+        border: none;
+    }
+
+}
